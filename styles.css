@@ -156,6 +156,9 @@ ul {
 /* QUERIES ||*/
 
 @media(min-width: 700px) {
+    body {
+        background-image: url(images/bg-desktop.png);
+    }
     .cards {
         flex-flow: row nowrap;
         align-items: baseline;
