@@ -158,6 +158,8 @@ ul {
 @media(min-width: 700px) {
     body {
         background-image: url(images/bg-desktop.png);
+        background-size: contain;
+        background-position: bottom;
     }
     .cards {
         flex-flow: row nowrap;
